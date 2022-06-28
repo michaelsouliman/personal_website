@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.cf5debb5.css","mappings":"AAAA,KAGI,qBAAsB,CADtB,WAAY,CADZ,UAGJ","sources":["topbar/topBar.css"],"sourcesContent":[".top{\r\n    width: 100%;\r\n    height: 50px;\r\n    background-color: aqua;\r\n}"],"names":[],"sourceRoot":""}
