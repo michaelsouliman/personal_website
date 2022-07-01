@@ -10,13 +10,10 @@ export default function TopBar() {
             <i className="topIcon fa-brands fa-facebook-square"></i>
             <i className="topIcon fa-brands fa-instagram-square"></i>
             <i className="topIcon fa-brands fa-twitter-square"></i>
-            <i className="topIcon fa-brands fa-tiktok"></i>
         </div>
         <div className="topCenter">
             <ul className="topList">
                 <li className="topListItem"><Link className="link" to="/">HOME</Link></li>
-                <li className="topListItem"><Link className="link" to="/">ABOUT</Link></li>
-                <li className="topListItem"><Link className="link" to="/">CONTACT</Link></li>
                 <li className="topListItem"><Link className="link" to="/write">WRITE</Link></li>
                 <li className="topListItem">{user && "LOGOUT"}</li>
             </ul>
