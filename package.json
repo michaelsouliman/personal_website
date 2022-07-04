@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "cd api && yarn start && cd .. && cd src && npm run build"
+    "heroku-postbuild": "cd api && node index.js && cd .. && cd src && npm run build"
   },
   "eslintConfig": {
     "extends": [
