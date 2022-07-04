@@ -38,7 +38,7 @@ export default function Register() {
             <button className="registerLoginButton" type="submit">
             <Link className="link" to="/login">Login</Link>
             </button>
-            {error && <span style={{color: "white"}}>Something went wrong</span>}
+            {error && <span style={{color: "white"}}>Something went wrong!</span>}
         </div>
     )
 }
