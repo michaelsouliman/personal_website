@@ -8,9 +8,11 @@ const userRoute = require("./routes/users");
 const postsRoute = require("./routes/posts");
 const categoryRoute = require("./routes/categories");
 const multer = require("multer");
+const path = require("path");
 
 dotenv.config();
 app.use(express.json());
+app.use("/images", express.static(path.join(__dirname, "/images")))
 
 mongoose.connect(process.env.mongo_url).then(console.log("connected to mongo")).catch((err) => console.log(err));
 
