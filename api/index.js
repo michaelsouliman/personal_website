@@ -10,13 +10,6 @@ const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path");
 
-app.use(express.static(path.join(__dirname, '../build')))
-
-// AFTER defining routes: Anything that doesn't match what's above, send back index.html; (the beginning slash ('/') in the string is important!)
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname + '/../build/index.html'))
-})
-
 dotenv.config();
 app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")))
