@@ -11,7 +11,7 @@ export default function Settings() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const {user, dispatch} = useContext(Context);
-    const PF = "http://localhost:5000/images/";
+    const PF = "https://mern-blog-msoul.herokuapp.com/images/";
 
 
     const handleSubmit = async (e) => {
