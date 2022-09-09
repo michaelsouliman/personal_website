@@ -1,0 +1,44 @@
+.single_project{
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid rgb(84, 84, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 60%;
+    height: 30%;
+}
+
+.projectInfo{
+    flex: 2;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.projectTitle{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.projectDate{
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.projectDesc{
+    font-size: 18px;
+}
+
+.projectImg{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imageContainer{
+    flex: 1;
+    margin: 20px;
+}
