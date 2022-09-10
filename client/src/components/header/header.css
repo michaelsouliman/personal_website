@@ -1,44 +1,73 @@
 .header{
-    margin-top: 60px;
+    margin-top: 0px;
     display: flex; 
-    margin-left: 25%;
-    margin-right: 25%;
+    justify-content: center;
+    margin-left: 5%;
+    width: 100%;
 }
 
 .headerTitles{
-    width: 500px;
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     font-family: 'IBM Plex Sans', sans-serif;
-    color: #444;
+    color: #fffbee;
 }
 
 .headerTitleSm{
     position: relative;
     top: 20%;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .headerTitleLg{
     position: relative;
     top: 20%;
-    font-size: 50px;
-    margin-bottom: 30px;
+    font-size: 4em;
+    margin-bottom: 1em;
 }
 
-.headerProjects{
+.headerTextSm{
+    flex: 3;
+    font-size: 1.5em;
+}
+
+.headerTextLg{
+    flex: 1;
+    font-size: 1.5em;
+
+}
+
+.headerText{
+    display: flex;
     position: relative;
     top: 30%;
-    font-size: 30px;
-    text-decoration: underline;
-    cursor: pointer;
+}
+
+.headerImgContainer{
+    flex: 1;
+    position: relative;
+    margin: 5%;
 }
 
 .headerImg{
-    width: 375px;
-    height: 500px;
-    margin-top: 80px;
-    border-radius: 15%;
-    margin-left: auto;
+    border-radius: 7%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 1500px) {
+    .header {
+        flex-direction: column;    
+    }
+
+    .headerText{
+        flex-direction: column;
+    }
+
+    .headerImgContainer{
+        margin: 10%;
+    }
+
 }

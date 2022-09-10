@@ -18,11 +18,13 @@ export default function Home() {
   //   fetchPosts();
   // }, [search]);
   return (
-    <>
-        <Header />
+    <div className="home">
+    <Header />
         <div className="home">
           {/* <Projects projects={projects}/> */}
         </div>
-    </>
+    </div>
+     
+
   )
 }

@@ -5,9 +5,9 @@ export default function TopBar() {
     return (
     <div className="top">
         <div className="topLeft">
-            <i className="topIcon fa-brands fa-linkedin"></i>
-            <i className="topIcon fa-brands fa-instagram-square"></i>
-            <i className="topIcon fa-brands fa-twitter-square"></i>
+        <a target="_blank" href="https://www.linkedin.com/in/michaelsouliman/"><i className="topIcon fa-brands fa-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/michaelsouliman"><i className="topIcon fa-brands fa-github"></i></a>
+        <a target="_blank" href="mailto:msoul@stanford.edu"><i className="topIcon fa-solid fa-square-envelope"></i></a>
         </div>
         <div className="topRight">
         <ul className="topList">
