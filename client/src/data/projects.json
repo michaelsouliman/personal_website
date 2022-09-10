@@ -1,10 +1,18 @@
 [
     {
     "name": "MERN Stack Challenge",
-    "date": "June 2022"
+    "date": "June 2022",
+    "desc": "Utilized MERN stack to locally develop a fully functional blog website, including a context API, user authentication, and the ability to search for and query posts by relevant tags \n Deployed to the web using Herkou at mern-blog-msoul.herokuapp.com, currently working to add image uploading and storage in MongoDB using GridFS"
 },
 {
-    "name": "My Maps"
+    "name": "SimpleYelp",
+    "date": "Nov 2021",
+    "desc": ""
+},
+{
+    "name": "My Maps",
+    "date": "Oct 2021",
+    "desc": ""
 }
 
 ]

@@ -4,7 +4,7 @@ export default function Single_Project({project}) {
   return (
     <div className="single_project">
         <div className="projectInfo">
-            <span className="projectTitle">{project.title}</span>
+            <span className="projectTitle">{project.name}</span>
             <span className="projectDate">{project.date}</span>
             <p className="projectDesc">{project.desc}</p>
         </div>

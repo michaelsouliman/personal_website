@@ -11,10 +11,13 @@ import { useContext } from "react";
 
 function App() {
   return (
-      <>
-      <TopBar />
-      <Projects_Page />
-      </>
+      <Router>
+        <TopBar />
+        <Routes>
+          <Route exact path="/" element={<Home/>}/>
+          <Route path="/projects" element={<Projects_Page />}/>
+        </Routes>
+      </Router>
   );
 }
 export default App;
