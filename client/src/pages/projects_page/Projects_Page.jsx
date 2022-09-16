@@ -4,10 +4,10 @@ import projects from"../../data/projects.json"
 
 export default function Projects_Page() {
   const projects_to_load = projects;
-  console.log(projects_to_load);  
+
   return (
     <div className="projects_page">
-        <div className="projects_title">My Projects</div>
+        <div className="projects_title">MY PROJECTS</div>
         <div className="projects_container">
            {projects_to_load.map(p => (
             <Single_Project project={p}></Single_Project>

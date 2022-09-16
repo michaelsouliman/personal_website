@@ -1,44 +1,270 @@
-.single_project{
-    margin-top: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
-    border: 2px solid rgb(84, 84, 255);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 60%;
-    height: 30%;
+  .single_project {
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        background-color: #fffbee;
+        border-radius: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        height: auto;
+      }
+    
+      .projectInfo {
+        flex: 2;
+        margin: 3%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+    
+      .projectTitle {
+        font-size: 2em;
+        margin-top: 0.1em;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #42725f;
+        text-decoration: none;
+      }
+    
+      a:hover,
+      a:visited,
+      a:link,
+      a:active {
+        text-decoration: none;
+      }
+    
+      .projectDate {
+        font-size: 1.3em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-family: "Quicksand", sans-serif;
+        color: #42725f;
+      }
+    
+      .projectDesc {
+        font-size: 1.3em;
+        font-family: "Quicksand", sans-serif;
+        color: #42725f;
+        white-space: pre-line;
+        margin-top: 0.1em;
+      }
+    
+      .projectImg {
+        max-width: 60%;
+        max-height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    
+      .imageContainer {
+        flex: 1;
+        margin: 20px;
+      }
+
+@media (min-width: 481px) {
+    .single_project {
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        background-color: #fffbee;
+        border-radius: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        height: auto;
+      }
+    
+      .projectInfo {
+        flex: 2;
+        margin: 3%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+    
+      .projectTitle {
+        font-size: 2em;
+        margin-top: 0.1em;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #42725f;
+        text-decoration: none;
+      }
+    
+      a:hover,
+      a:visited,
+      a:link,
+      a:active {
+        text-decoration: none;
+      }
+    
+      .projectDate {
+        font-size: 1.3em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-family: "Quicksand", sans-serif;
+        color: #42725f;
+      }
+    
+      .projectDesc {
+        font-size: 1.3em;
+        font-family: "Quicksand", sans-serif;
+        color: #42725f;
+        white-space: pre-line;
+        margin-top: 0.1em;
+      }
+    
+      .projectImg {
+        max-width: 60%;
+        max-height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    
+      .imageContainer {
+        flex: 1;
+        margin: 20px;
+      }
 }
 
-.projectInfo{
+@media (min-width: 769px) {
+    .single_project {
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        background-color: #fffbee;
+        border-radius: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        height: auto;
+      }
+    
+      .projectInfo {
+        flex: 2;
+        margin: 3%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+    
+      .projectTitle {
+        font-size: 2.5em;
+        margin-top: 0.1em;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #42725f;
+        text-decoration: none;
+      }
+    
+      a:hover,
+      a:visited,
+      a:link,
+      a:active {
+        text-decoration: none;
+      }
+    
+      .projectDate {
+        font-size: 1.7em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-family: "Quicksand", sans-serif;
+        color: #42725f;
+      }
+    
+      .projectDesc {
+        font-size: 1.7em;
+        font-family: "Quicksand", sans-serif;
+        color: #42725f;
+        white-space: pre-line;
+        margin-top: 0.1em;
+      }
+    
+      .projectImg {
+        max-width: 60%;
+        max-height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    
+      .imageContainer {
+        flex: 1;
+        margin: 20px;
+      }
+}
+
+@media (min-width: 1300px) {
+  /* breakpoint for large screens */
+  .single_project {
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+    background-color: #fffbee;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    height: auto;
+  }
+
+  .projectInfo {
     flex: 2;
-    margin-left: 2%;
+    margin: 3%;
     display: flex;
     flex-direction: column;
     position: relative;
-}
+  }
 
-.projectTitle{
-    font-size: 50px;
-    margin-top: 10px;
-}
+  .projectTitle {
+    font-size: 4em;
+    margin-top: 0.1em;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #42725f;
+    text-decoration: none;
+  }
 
-.projectDate{
-    font-size: 24px;
-    margin-top: 8px;
-}
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+  }
 
-.projectDesc{
-    font-size: 24px;
-}
+  .projectDate {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: "Quicksand", sans-serif;
+    color: #42725f;
+  }
 
-.projectImg{
-    max-width: 100%;
-    max-height: 100%;
-}
+  .projectDesc {
+    font-size: 2em;
+    font-family: "Quicksand", sans-serif;
+    color: #42725f;
+    white-space: pre-line;
+    margin-top: 0.1em;
+  }
 
-.imageContainer{
+  .projectImg {
+    max-width: 60%;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .imageContainer {
     flex: 1;
     margin: 20px;
+  }
 }

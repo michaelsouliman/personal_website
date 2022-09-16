@@ -1,23 +1,31 @@
 [
     {
-        "name": "Personal Website",
+        "name": "PERSONAL WEBSITE",
         "date": "June 2022",
-        "desc": "Utilized MERN stack to locally develop a fully functional blog website, including a context API, user authentication, and the ability to search for and query posts by relevant tags \n Deployed to the web using Herkou at mern-blog-msoul.herokuapp.com, currently working to add image uploading and storage in MongoDB using GridFS"
+        "desc": ["Built a portfolio website (this website hehe) using HTML/CSS/React.JS","Focused on design and usability across different platforms and devices, used Figma to create prototype of the website for multiple breakpoints", "Hosting website using Google Firebase"],
+        "link": "https://github.com/michaelsouliman/personal_website",
+        "img": "https://blog-frontend.envato.com/cdn-cgi/image/width=1200,quality=75,format=auto/uploads/2020/06/SOC101_Portfolio_Guide.png"
     },
     {
-    "name": "MERN Blog Website",
+    "name": "MERN BLOG",
     "date": "June 2022",
-    "desc": "Utilized MERN stack to locally develop a fully functional blog website, including a context API, user authentication, and the ability to search for and query posts by relevant tags \n Deployed to the web using Herkou at mern-blog-msoul.herokuapp.com, currently working to add image uploading and storage in MongoDB using GridFS"
+    "desc": ["Utilized MERN stack to locally develop a fully functional blog website, including a context API, user authentication, and the ability to search for and query posts by relevant tags" , "Deployed to the web using Herkou at mern-blog-msoul.herokuapp.com, currently working to add image uploading and storage in MongoDB using GridFS"],
+    "img": "https://blog.hyperiondev.com/wp-content/uploads/2018/09/Blog-Article-MERN-Stack.jpg",
+    "link": "https://github.com/michaelsouliman/mern-challenge"
 },
 {
     "name": "SimpleYelp",
     "date": "Nov 2021",
-    "desc": ""
+    "desc": ["Developed Yelp clone that shows user information on retail locations populated by the Yelp API, parse user search to get results based on subject and location", "Display results of the search query in a RecyclerView, designed elements in .xml file format to populate RecyclerView"],
+    "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/1200px-Yelp_Logo.svg.png",
+    "link": "https://github.com/michaelsouliman/SimpleYelp"    
 },
 {
-    "name": "My Maps",
+    "name": "MY MAPS",
     "date": "Oct 2021",
-    "desc": ""
+    "desc": ["Developed map tracker in Kotlin/Android Studio that displays a list of maps, each of which show user-defined markers with a title, description, and location", "Uses Google Maps API to load MapView and Markers and utilizes device local storage to store marker coordinates and details"]
+     ,    "img": "https://developers.google.com/maps/images/google-maps-platform-1200x675.png",
+     "link": "https://github.com/michaelsouliman/My_Maps"
 }
 
 ]

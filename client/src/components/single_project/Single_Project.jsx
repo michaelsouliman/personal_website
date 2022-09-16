@@ -1,15 +1,20 @@
 import "./single_project.css"
 
 export default function Single_Project({project}) {
+  const projectDesc = project.desc;
+
+  
   return (
     <div className="single_project">
         <div className="projectInfo">
-            <span className="projectTitle">{project.name}</span>
+        <a target="_blank" href={project.link}><span className="projectTitle">{project.name}</span></a>
             <span className="projectDate">{project.date}</span>
-            <p className="projectDesc">{project.desc}</p>
+            {projectDesc.map(p => (
+              <p className="projectDesc">{p}</p>
+            ))}
         </div>
         <div className="imageContainer">
-        <img className="projectImg" src="https://i.ibb.co/Lxkjfqf/IMG-6576.jpg" alt=""></img>
+        <img className="projectImg" src={project.img} alt=""></img>
         </div>
     </div>
   )

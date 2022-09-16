@@ -1,73 +1,459 @@
-.header{
-    margin-top: 0px;
-    display: flex; 
-    justify-content: center;
-    margin-left: 5%;
-    width: 100%;
+ .header {
+        margin-top: 0.5em;
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+      }
+    
+      .headerTextContainer {
+        margin-top: 1.5em;
+        flex: 1.5;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fffbee;
+      }
+      .headerTitles {
+        flex: 1.5;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fffbee;
+      }
+    
+      .headerTitleSm {
+        position: relative;
+        top: 10%;
+        font-size: 1.5em;
+      }
+    
+      .headerTitleLg {
+        position: relative;
+        top: 10%;
+        font-size: 3em;
+        margin-bottom: 1em;
+      }
+    
+      .headerTextSm {
+        flex: 3;
+        font-size: 1.5em;
+      }
+    
+      .headerTextLg {
+        flex: 1;
+        font-size: 1.5em;
+      }
+    
+      .headerText {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 3em;
+
+      }
+    
+      .headerInfo {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+      }
+    
+      .headerImgContainer {
+        display: none;
+        flex: 1;
+        position: relative;
+        margin-top: 1em;
+        margin-left: -6em;
+      }
+    
+      .headerImg {
+        border-radius: 7%;
+        display: block;
+        max-height: 80%;
+        max-width: 80%;
+      }
+    
+      .contactMeIcons {
+        flex: 3;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 1em;
+      }
+    
+      .headerIcon {
+        font-size: 40px;
+        margin-right: 24px;
+        color: #fffbee;
+        cursor: pointer;
+      }
+
+@media (min-width: 481px) {
+    .header {
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+    
+      .headerTextContainer {
+        margin-top: 3em;
+        flex: 1.5;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fffbee;
+      }
+      .headerTitles {
+        flex: 1.5;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fffbee;
+      }
+    
+      .headerTitleSm {
+        position: relative;
+        top: 10%;
+        font-size: 1.5em;
+      }
+    
+      .headerTitleLg {
+        position: relative;
+        top: 10%;
+        font-size: 3em;
+        margin-bottom: 1em;
+      }
+    
+      .headerTextSm {
+        flex: 3;
+        font-size: 1.5em;
+      }
+    
+      .headerTextLg {
+        flex: 1;
+        font-size: 1.5em;
+      }
+    
+      .headerText {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 3em;
+
+      }
+    
+      .headerInfo {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+      }
+    
+      .headerImgContainer {
+        display: none;
+        flex: 1;
+        position: relative;
+        margin-top: 1em;
+        margin-left: -6em;
+      }
+    
+      .headerImg {
+        border-radius: 7%;
+        display: block;
+        max-height: 80%;
+        max-width: 80%;
+      }
+    
+      .contactMeIcons {
+        flex: 3;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 1em;
+      }
+    
+      .headerIcon {
+        font-size: 40px;
+        margin-right: 24px;
+        color: #fffbee;
+        cursor: pointer;
+      }
+ 
 }
 
-.headerTitles{
-    flex: 1;
+@media (min-width: 769px) {
+  /* breakpoint for small screens */
+  .header {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+  }
+
+  .headerTextContainer {
+    margin-top: 3em;
+    flex: 1.5;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fffbee;
+  }
+  .headerTitles {
+    flex: 1.5;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     color: #fffbee;
-}
+  }
 
-.headerTitleSm{
+  .headerTitleSm {
     position: relative;
-    top: 20%;
+    top: 10%;
     font-size: 1.5em;
-}
+  }
 
-.headerTitleLg{
+  .headerTitleLg {
     position: relative;
-    top: 20%;
+    top: 10%;
     font-size: 4em;
     margin-bottom: 1em;
-}
+  }
 
-.headerTextSm{
+  .headerTextSm {
     flex: 3;
     font-size: 1.5em;
-}
+  }
 
-.headerTextLg{
+  .headerTextLg {
     flex: 1;
     font-size: 1.5em;
+  }
 
-}
-
-.headerText{
+  .headerText {
     display: flex;
+    flex-direction: column;
     position: relative;
-    top: 30%;
-}
+    margin-top: 3em;
+    margin-right: 2em;
+  }
 
-.headerImgContainer{
+  .headerInfo {
+    display: flex;
+    flex-direction: row;
+    width: 150%;
+  }
+
+  .headerImgContainer {
     flex: 1;
     position: relative;
-    margin: 5%;
+    margin-top: 1em;
+    margin-left: -6em;
+    display: block;
+  }
+
+  .headerImg {
+    border-radius: 7%;
+    display: block;
+    max-height: 80%;
+    max-width: 80%;
+  }
+
+  .contactMeIcons {
+    flex: 3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: -4em;
+  }
+
+  .headerIcon {
+    font-size: 40px;
+    margin-right: 24px;
+    color: #fffbee;
+    cursor: pointer;
+  }
 }
 
-.headerImg{
+@media (min-width: 900px) {
+  /* breakpoint for small screens */
+  .header {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+  }
+
+  .headerTextContainer {
+    margin-top: 3em;
+    flex: 1.5;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fffbee;
+  }
+  .headerTitles {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fffbee;
+  }
+
+  .headerTitleSm {
+    position: relative;
+    top: 10%;
+    font-size: 1.5em;
+  }
+
+  .headerTitleLg {
+    position: relative;
+    top: 10%;
+    font-size: 4em;
+    margin-bottom: 1em;
+    width: 90%;
+  }
+
+  .headerTextSm {
+    flex: 3;
+    font-size: 1.5em;
+  }
+
+  .headerTextLg {
+    flex: 1;
+    font-size: 1.5em;
+  }
+
+  .headerText {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 3em;
+    margin-right: 2em;
+  }
+
+  .headerInfo {
+    display: flex;
+    width: 140%;
+  }
+
+  .headerImgContainer {
+    flex: 1;
+    position: relative;
+    margin-top: 1em;
+    margin-left: -6em;
+  }
+
+  .headerImg {
     border-radius: 7%;
+    display: block;
+    max-height: 80%;
+    max-width: 80%;
+  }
+
+  .contactMeIcons {
+    flex: 3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: -4em;
+  }
+
+  .headerIcon {
+    font-size: 40px;
+    margin-right: 24px;
+    color: #fffbee;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* breakpoint for large screens */
+
+  .header {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+  }
+
+  .headerTextContainer {
+    margin-top: 3em;
+    flex: 1.5;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fffbee;
+  }
+  .headerTitles {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fffbee;
+  }
+
+  .headerTitleSm {
+    position: relative;
+    top: 10%;
+    font-size: 1.5em;
+  }
+
+  .headerTitleLg {
+    position: relative;
+    top: 10%;
+    font-size: 4em;
+    margin-bottom: 1em;
+  }
+
+  .headerTextSm {
+    flex: 3;
+    font-size: 1.5em;
+  }
+
+  .headerTextLg {
+    flex: 1;
+    font-size: 1.5em;
+  }
+
+  .headerText {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 3em;
+  }
+
+  .headerImgContainer {
+    flex: 1;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+  }
+
+  .headerImg {
+    border-radius: 7%;
+    display: block;
     max-height: 100%;
     max-width: 100%;
-}
+  }
 
-@media (max-width: 1500px) {
-    .header {
-        flex-direction: column;    
-    }
+  .contactMeIcons {
+    flex: 3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 0em;
+  }
 
-    .headerText{
-        flex-direction: column;
-    }
+  .headerIcon {
+    font-size: 40px;
+    margin-right: 24px;
+    color: #fffbee;
+    cursor: pointer;
+  }
 
-    .headerImgContainer{
-        margin: 10%;
-    }
-
+  .headerInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
